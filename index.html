@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Congratulations Graduates!</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100..900&family=Prompt:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container">
+            <img class="header__logo" src="https://cdn-icons-png.flaticon.com/512/171/171322.png" alt="Friendship Icon">
+            <div class="header__divider"></div>
+            <h1 class="header__title">FRIENDSHIP</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="photo-background">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="https://photos.nudchannel.com/photos/preview/45bc55a7-80ee-41c3-9789-3bc1ebbb464a.webp" alt="Group Photo 1"></div>
+                    <div class="swiper-slide"><img src="https://photos.nudchannel.com/photos/preview/29bf4e9f-a7ae-485f-aa43-5c3e2cf65cef.webp" alt="Group Photo 2"></div>
+                    <div class="swiper-slide"><img src="https://photos.nudchannel.com/photos/preview/3b2d8436-6d14-417a-bf7c-8dd170d1334f.webp" alt="Group Photo 3"></div>
+                    <div class="swiper-slide"><img src="https://photos.nudchannel.com/photos/preview/df833c49-e7c0-4b22-8cd7-6ee42b6af23b.webp" alt="Group Photo 4"></div>
+                </div>
+            </div>
+            
+            <section class="congratulations">
+                <h2 class="congratulations__title">CONGRATULATIONS</h2>
+                <div class="congratulations__info">
+                    <p>
+                        ยินดีด้วยเพื่อนๆที่เรียนจบ ม.6 พร้อมกัน หลายคนที่ได้รับเว็บนี้<br>
+                        ก็คงมีที่เรียนกันหมดแล้ว หลายคนก็คงต้องไปต่อรอบ 3 เหมือนกัน<br> 
+                        คนที่ได้ที่เรียนแล้วก็ดีใจด้วยส่วนคนต้องไปต่อก็พยามเข้านะเพื่อน<br> 
+                        มีกุคนนึงละที่จะไปต่อรอบ 3 เป็นเพื่อนถ้าติดกันแล้วก็อย่าลืมกลับมาบอกกันด้วยนะเว้ยว่าติดที่ไหนกัน<br>
+                        เผื่อได้ไปเจอกันบ้าง แล้วก็กลับมาเจอกันบ้างนะเว้ย ถ้าเจอหน้ากันก็ทักได้กุจะพยายามจำให้ได้ทุกคนนะ 
+                    </p>
+                    <strong class="congratulations__quote">“สุดท้ายที่อยากบอกคือ มึงแม่งเป็นเพื่อนที่กุรักมากเลยเว้ย”</strong>
+                    <div class="congratulations__name">วิวิธชัย ธรรมาธิวัฒน์ NUD’ 17</div>
+                </div>
+            </section>
+        </div>
+         
+        <section class="say-something">
+            <h2 class="say-something__title">SAY SOMETHING</h2>
+            
+            <form id="contact-form" class="form-container" novalidate>
+                <div class="form__photo-section">
+                    <label class="form__label">PHOTO</label>
+                    <div class="form__photo-box">
+                        (Photo upload coming soon!)
+                        </div>
+                </div>
+            
+                <div class="form__details-section">
+                    <div class="form__input-group">
+                        <label for="name">NAME</label>
+                        <input type="text" id="name" class="form__input" placeholder="Your Name" required>
+                    </div>
+                    <div class="form__input-group">
+                        <label for="message">อยากบอกไรป้ะ</label>
+                        <textarea id="message" rows="5" class="form__textarea" placeholder="Say something..." required></textarea>
+                    </div>
+                    <div class="form__contacts">
+                        <h3>CONTACTS</h3>
+                        <div class="form__contact-item">
+                            <img src="https://cdn-icons-png.flaticon.com/128/2168/2168281.png" alt="Facebook">
+                            <input type="text" id="facebook" class="form__input" placeholder="Facebook Profile">
+                        </div>
+                        <div class="form__contact-item">
+                            <img src="https://cdn-icons-png.flaticon.com/128/1384/1384015.png" alt="Instagram">
+                            <input type="text" id="instagram" class="form__input" placeholder="Instagram Username">
+                        </div>
+                        <div class="form__contact-item">
+                            <img src="https://cdn-icons-png.flaticon.com/128/5969/5969020.png" alt="X">
+                            <input type="text" id="twitter" class="form__input" placeholder="Twitter (X) Handle">
+                        </div>
+                    </div>
+                    
+                    <button type="submit" class="form__submit-btn">Submit</button>
+                    <div id="form-feedback"></div>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__title">MY CONTACTS</div>
+            <div class="footer__contacts">
+                <div class="footer__contact-item">
+                    <img src="https://cdn-icons-png.flaticon.com/128/2168/2168281.png" alt="Facebook">
+                    Wiwitthachai Thammathiwat
+                </div>
+                <div class="footer__contact-item">
+                    <img src="https://cdn-icons-png.flaticon.com/128/1384/1384015.png" alt="Instagram">
+                    mago_ahhhhhhhh
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+    <script src="script.js" defer></script>
+</body>
+</html>
